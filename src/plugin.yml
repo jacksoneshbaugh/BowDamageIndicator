@@ -1,0 +1,11 @@
+name: BowDamageIndicator
+version: 1.0.0
+author: ITGuy12
+main: me.itguy12.bowdamageindicator.Main
+commands:
+  bdireload:
+    description: Reload the plugin. Requires the bdi.reload permission.
+    aliases: [bdir]
+permissions:
+  bdi.reload:
+    description: Gives permission to reload the plugin.

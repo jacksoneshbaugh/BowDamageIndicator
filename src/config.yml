@@ -1,0 +1,11 @@
+messages: 
+  #You can use the following placeholders in these messages:
+  # %player% - gets the hit player
+  # %damage% - gets the damage amount done.
+  # %health% - gets the hit player's current health value.
+  
+  #The message sent when a player hits another player with a bow.
+  shot-message: "&a%player% &eis on &a%health% &eHP. You did &a%damage% &eHP of damage to them."
+
+#DO NOT TOUCH THIS:
+version: 1
