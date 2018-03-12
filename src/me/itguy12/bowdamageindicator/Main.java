@@ -56,7 +56,7 @@ public class Main extends JavaPlugin implements Listener{
 			String damage = e.getDamage() + "";
 			
 			if(pro.getType() == EntityType.ARROW) {
-				String shotMessage = getConfig().getString("messages");
+				String shotMessage = getConfig().getString("messages.shot-message");
 				shotMessage = shotMessage.replaceAll("%player%", p.getName());
 				shotMessage = shotMessage.replaceAll("%damage%", damage);
 				shotMessage = shotMessage.replaceAll("%health%", p.getHealth() + "");
